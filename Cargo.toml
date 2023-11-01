@@ -1,5 +1,5 @@
 [package]
-name = "csv-to-sql"
+name = "csv2insertsql"
 version = "0.1.0"
 edition = "2021"
 
