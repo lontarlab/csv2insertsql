@@ -22,8 +22,8 @@ fn main() {
 }
 
 fn print_usage() {
-    println!("Usage: csv2insertsql <csv_directory> <table_name>");
-    println!("       csv2insertsql --help");
+    println!("Usage: csv2insertsql file.csv table_name");
+    println!("       csv2insertsql help");
 }
 
 fn read_csv(directory: &String, table_name: &String) -> Result<(), Box<dyn Error>> {
